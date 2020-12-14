@@ -1,0 +1,201 @@
+.navbar {
+	opacity: 0.9;
+	border-bottom: 3px solid red;
+}
+
+.sobuj {
+	color: rgb(17, 197, 17);
+}
+
+.lal {
+	color: rgb(252, 24, 24);
+}
+
+#cover-img {
+	background-image: url(../img/main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 720px;
+	/* background-position: 0px -350px; */
+	position: relative;
+}
+
+.dark-overlay {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 100%;
+	min-height: 720px;
+}
+
+#content {
+	color: #edf2f4;
+	text-align: center;
+	padding: 25%;
+	width: 100%;
+}
+#content h1 {
+	font-size: 3rem;
+}
+
+iframe {
+	border: 3px solid gray;
+	border-radius: 5px;
+}
+
+/* #home-about h1 {
+	border-bottom: 3px solid #89fc00;
+} */
+
+#message {
+	background-color: #cfd2cd;
+}
+
+textarea {
+	background-color: white !important;
+}
+
+#main-footer a {
+	text-decoration: none;
+	color: white;
+}
+
+#main-footer a:hover {
+	color: whitesmoke;
+}
+
+#page-header {
+	background-image: url(../img/places/sundarban.jpg);
+	min-height: 200px;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding-top: 60px;
+}
+
+/* about page */
+#mpage-header {
+	position: relative;
+	background-image: url(../img/about/coconut1.jpg);
+	min-height: 250px;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#mpage-header .about-h-text {
+	padding-top: 60px;
+	color: #fff;
+}
+
+#mpage-header .mpage-dark {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	min-height: 250px;
+}
+
+#mpage-header h1 {
+	color: #d62839;
+}
+
+#m-about p {
+	text-align: justify;
+}
+
+/* culture page */
+#cpage-header {
+	position: relative;
+	background-image: url(../img/culture/celebration2.jpg);
+	min-height: 250px;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#cpage-header .c-text {
+	padding-top: 60px;
+	color: #fff;
+}
+
+#cpage-header .cpage-dark {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	min-height: 250px;
+}
+
+#cpage-header h1 {
+	color: #fff;
+}
+
+#c-about p {
+	text-align: justify;
+}
+
+/* place page */
+#ppage-header {
+	position: relative;
+	background-image: url(../img/places/sundarban1.jpg);
+	min-height: 250px;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#ppage-header .p-text {
+	padding-top: 60px;
+	color: #fff;
+}
+
+#ppage-header .ppage-dark {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	min-height: 250px;
+}
+
+#ppage-header h1 {
+	color: #fff;
+}
+
+#p-about p {
+	text-align: justify;
+}
+
+/* food page */
+#fpage-header {
+	position: relative;
+	background-image: url(../img/food/foodh.jpg);
+	min-height: 250px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: 0px -350px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#fpage-header .f-text {
+	padding-top: 60px;
+	color: #fff;
+}
+
+#fpage-header .fpage-dark {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	min-height: 250px;
+}
+
+#fpage-header h1 {
+	color: #5dd39e;
+}
+
+#f-about p {
+	text-align: justify;
+}
